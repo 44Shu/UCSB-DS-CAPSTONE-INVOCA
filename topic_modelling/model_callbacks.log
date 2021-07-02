@@ -1,0 +1,1049 @@
+2021-02-18 19:54:58,140:INFO:using symmetric alpha at 0.2
+2021-02-18 19:54:58,141:INFO:using symmetric eta at 0.2
+2021-02-18 19:54:58,143:INFO:using serial LDA version on this node
+2021-02-18 19:54:58,152:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 7708 documents, updating model once every 2000 documents, evaluating perplexity every 7708 documents, iterating 50x with a convergence threshold of 0.001000
+2021-02-18 19:54:59,441:INFO:PROGRESS: pass 0, at document #2000/7708
+2021-02-18 19:54:59,441:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:00,768:DEBUG:59/2000 documents converged within 50 iterations
+2021-02-18 19:55:00,769:DEBUG:updating topics
+2021-02-18 19:55:00,772:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:00,780:INFO:topic #0 (0.200): 0.025*"pm" + 0.014*"available" + 0.013*"sure" + 0.013*"good" + 0.012*"thank" + 0.010*"time" + 0.010*"reservation" + 0.010*"one" + 0.009*"anything" + 0.009*"table"
+2021-02-18 19:55:00,781:INFO:topic #1 (0.200): 0.016*"order" + 0.014*"great" + 0.011*"pm" + 0.011*"thank" + 0.009*"pizza" + 0.008*"time" + 0.008*"good" + 0.008*"let" + 0.007*"one" + 0.007*"get"
+2021-02-18 19:55:00,781:INFO:topic #2 (0.200): 0.025*"order" + 0.025*"pizza" + 0.014*"thank" + 0.011*"car" + 0.011*"large" + 0.010*"great" + 0.010*"get" + 0.009*"one" + 0.009*"time" + 0.009*"pm"
+2021-02-18 19:55:00,781:INFO:topic #3 (0.200): 0.014*"order" + 0.014*"milk" + 0.011*"great" + 0.011*"one" + 0.011*"get" + 0.010*"time" + 0.010*"see" + 0.010*"starbucks" + 0.009*"thank" + 0.008*"uber"
+2021-02-18 19:55:00,782:INFO:topic #4 (0.200): 0.026*"tickets" + 0.019*"order" + 0.018*"pm" + 0.013*"thank" + 0.013*"pizza" + 0.013*"great" + 0.013*"one" + 0.012*"get" + 0.011*"movie" + 0.010*"see"
+2021-02-18 19:55:00,782:INFO:topic diff=4.681783, rho=1.000000
+2021-02-18 19:55:00,782:INFO:PROGRESS: pass 0, at document #4000/7708
+2021-02-18 19:55:00,782:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:02,022:DEBUG:1050/2000 documents converged within 50 iterations
+2021-02-18 19:55:02,022:DEBUG:updating topics
+2021-02-18 19:55:02,025:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:02,029:INFO:topic #0 (0.200): 0.029*"pm" + 0.016*"available" + 0.016*"reservation" + 0.015*"time" + 0.014*"table" + 0.012*"thank" + 0.012*"good" + 0.011*"sure" + 0.011*"restaurant" + 0.010*"people"
+2021-02-18 19:55:02,029:INFO:topic #1 (0.200): 0.014*"great" + 0.013*"order" + 0.011*"thank" + 0.011*"uber" + 0.009*"car" + 0.009*"good" + 0.008*"let" + 0.008*"pm" + 0.008*"minutes" + 0.007*"get"
+2021-02-18 19:55:02,029:INFO:topic #2 (0.200): 0.031*"pizza" + 0.024*"order" + 0.014*"car" + 0.014*"appointment" + 0.013*"thank" + 0.012*"large" + 0.011*"get" + 0.010*"great" + 0.010*"one" + 0.009*"make"
+2021-02-18 19:55:02,030:INFO:topic #3 (0.200): 0.028*"order" + 0.026*"milk" + 0.018*"starbucks" + 0.013*"coffee" + 0.012*"get" + 0.012*"one" + 0.011*"thank" + 0.010*"cream" + 0.010*"great" + 0.010*"grande"
+2021-02-18 19:55:02,030:INFO:topic #4 (0.200): 0.040*"tickets" + 0.024*"pm" + 0.021*"movie" + 0.017*"see" + 0.015*"two" + 0.013*"thank" + 0.012*"order" + 0.012*"great" + 0.012*"showing" + 0.011*"time"
+2021-02-18 19:55:02,030:INFO:topic diff=0.896102, rho=0.707107
+2021-02-18 19:55:02,030:INFO:PROGRESS: pass 0, at document #6000/7708
+2021-02-18 19:55:02,030:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:02,896:DEBUG:1483/2000 documents converged within 50 iterations
+2021-02-18 19:55:02,897:DEBUG:updating topics
+2021-02-18 19:55:02,901:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:02,906:INFO:topic #0 (0.200): 0.031*"pm" + 0.019*"reservation" + 0.017*"time" + 0.016*"available" + 0.016*"table" + 0.013*"restaurant" + 0.012*"thank" + 0.011*"people" + 0.011*"good" + 0.010*"great"
+2021-02-18 19:55:02,906:INFO:topic #1 (0.200): 0.024*"uber" + 0.018*"ride" + 0.012*"great" + 0.012*"minutes" + 0.011*"order" + 0.011*"thank" + 0.010*"car" + 0.010*"xl" + 0.009*"go" + 0.009*"get"
+2021-02-18 19:55:02,906:INFO:topic #2 (0.200): 0.032*"pizza" + 0.023*"order" + 0.015*"car" + 0.015*"appointment" + 0.013*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:02,907:INFO:topic #3 (0.200): 0.034*"order" + 0.032*"milk" + 0.021*"starbucks" + 0.014*"coffee" + 0.013*"one" + 0.013*"cream" + 0.012*"get" + 0.012*"thank" + 0.011*"anything" + 0.011*"great"
+2021-02-18 19:55:02,907:INFO:topic #4 (0.200): 0.045*"tickets" + 0.028*"pm" + 0.026*"movie" + 0.020*"see" + 0.016*"two" + 0.015*"showing" + 0.013*"time" + 0.012*"thank" + 0.012*"great" + 0.011*"theater"
+2021-02-18 19:55:02,907:INFO:topic diff=0.727522, rho=0.577350
+2021-02-18 19:55:02,921:DEBUG:bound: at document #0
+2021-02-18 19:55:03,953:INFO:-6.887 per-word bound, 118.3 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:55:03,953:INFO:PROGRESS: pass 0, at document #7708/7708
+2021-02-18 19:55:03,953:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:55:04,640:DEBUG:1499/1708 documents converged within 50 iterations
+2021-02-18 19:55:04,640:DEBUG:updating topics
+2021-02-18 19:55:04,643:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:55:04,647:INFO:topic #0 (0.200): 0.032*"pm" + 0.020*"reservation" + 0.018*"table" + 0.018*"time" + 0.017*"available" + 0.014*"restaurant" + 0.012*"people" + 0.012*"thank" + 0.011*"good" + 0.010*"make"
+2021-02-18 19:55:04,648:INFO:topic #1 (0.200): 0.031*"uber" + 0.024*"ride" + 0.012*"minutes" + 0.011*"great" + 0.011*"car" + 0.011*"thank" + 0.011*"xl" + 0.010*"go" + 0.010*"order" + 0.009*"lyft"
+2021-02-18 19:55:04,648:INFO:topic #2 (0.200): 0.034*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.013*"large" + 0.012*"thank" + 0.011*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:04,648:INFO:topic #3 (0.200): 0.037*"order" + 0.035*"milk" + 0.024*"starbucks" + 0.016*"coffee" + 0.014*"cream" + 0.014*"one" + 0.013*"thank" + 0.012*"get" + 0.012*"size" + 0.011*"latte"
+2021-02-18 19:55:04,648:INFO:topic #4 (0.200): 0.047*"tickets" + 0.030*"pm" + 0.028*"movie" + 0.021*"see" + 0.017*"two" + 0.016*"showing" + 0.013*"time" + 0.013*"theater" + 0.012*"thank" + 0.011*"one"
+2021-02-18 19:55:04,649:INFO:topic diff=0.617563, rho=0.500000
+2021-02-18 19:55:04,699:DEBUG:bound: at document #0
+2021-02-18 19:55:05,886:DEBUG:bound: at document #2000
+2021-02-18 19:55:07,029:DEBUG:bound: at document #4000
+2021-02-18 19:55:08,144:DEBUG:bound: at document #6000
+2021-02-18 19:55:09,052:INFO:Epoch 0: Perplexity estimate: 103.33133225751922
+2021-02-18 19:55:09,062:INFO:Epoch 0: Convergence estimate: 4.96462031224677
+2021-02-18 19:55:12,368:INFO:PROGRESS: pass 1, at document #2000/7708
+2021-02-18 19:55:12,368:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:13,365:DEBUG:1783/2000 documents converged within 50 iterations
+2021-02-18 19:55:13,365:DEBUG:updating topics
+2021-02-18 19:55:13,369:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:13,375:INFO:topic #0 (0.200): 0.033*"pm" + 0.021*"reservation" + 0.018*"table" + 0.017*"time" + 0.017*"available" + 0.015*"restaurant" + 0.012*"people" + 0.011*"thank" + 0.011*"make" + 0.010*"good"
+2021-02-18 19:55:13,375:INFO:topic #1 (0.200): 0.034*"uber" + 0.026*"ride" + 0.012*"minutes" + 0.012*"car" + 0.012*"xl" + 0.011*"lyft" + 0.011*"great" + 0.011*"go" + 0.011*"thank" + 0.010*"get"
+2021-02-18 19:55:13,376:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:13,376:INFO:topic #3 (0.200): 0.039*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.016*"coffee" + 0.014*"cream" + 0.014*"one" + 0.013*"thank" + 0.012*"size" + 0.012*"drink" + 0.012*"grande"
+2021-02-18 19:55:13,377:INFO:topic #4 (0.200): 0.049*"tickets" + 0.031*"pm" + 0.028*"movie" + 0.022*"see" + 0.016*"two" + 0.016*"showing" + 0.014*"time" + 0.014*"theater" + 0.012*"thank" + 0.011*"great"
+2021-02-18 19:55:13,377:INFO:topic diff=0.442914, rho=0.413308
+2021-02-18 19:55:13,377:INFO:PROGRESS: pass 1, at document #4000/7708
+2021-02-18 19:55:13,377:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:14,083:DEBUG:1818/2000 documents converged within 50 iterations
+2021-02-18 19:55:14,084:DEBUG:updating topics
+2021-02-18 19:55:14,087:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:14,090:INFO:topic #0 (0.200): 0.034*"pm" + 0.022*"reservation" + 0.019*"table" + 0.018*"time" + 0.017*"available" + 0.015*"restaurant" + 0.013*"people" + 0.011*"thank" + 0.011*"make" + 0.010*"great"
+2021-02-18 19:55:14,091:INFO:topic #1 (0.200): 0.035*"uber" + 0.029*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"car" + 0.012*"xl" + 0.012*"go" + 0.011*"thank" + 0.011*"great" + 0.010*"get"
+2021-02-18 19:55:14,091:INFO:topic #2 (0.200): 0.034*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.013*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:14,091:INFO:topic #3 (0.200): 0.041*"order" + 0.034*"milk" + 0.024*"starbucks" + 0.017*"coffee" + 0.014*"cream" + 0.013*"one" + 0.013*"thank" + 0.012*"grande" + 0.012*"drink" + 0.012*"latte"
+2021-02-18 19:55:14,091:INFO:topic #4 (0.200): 0.050*"tickets" + 0.031*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"two" + 0.016*"showing" + 0.014*"theater" + 0.014*"time" + 0.012*"thank" + 0.012*"tonight"
+2021-02-18 19:55:14,092:INFO:topic diff=0.418601, rho=0.413308
+2021-02-18 19:55:14,092:INFO:PROGRESS: pass 1, at document #6000/7708
+2021-02-18 19:55:14,092:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:14,788:DEBUG:1836/2000 documents converged within 50 iterations
+2021-02-18 19:55:14,788:DEBUG:updating topics
+2021-02-18 19:55:14,791:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:14,795:INFO:topic #0 (0.200): 0.034*"pm" + 0.022*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.015*"restaurant" + 0.012*"people" + 0.011*"thank" + 0.011*"make" + 0.011*"great"
+2021-02-18 19:55:14,795:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.014*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:14,795:INFO:topic #2 (0.200): 0.034*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.013*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:14,796:INFO:topic #3 (0.200): 0.041*"order" + 0.035*"milk" + 0.024*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.012*"size" + 0.012*"grande" + 0.012*"drink"
+2021-02-18 19:55:14,796:INFO:topic #4 (0.200): 0.049*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.016*"showing" + 0.014*"time" + 0.014*"theater" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:55:14,796:INFO:topic diff=0.403319, rho=0.413308
+2021-02-18 19:55:14,808:DEBUG:bound: at document #0
+2021-02-18 19:55:15,733:INFO:-6.725 per-word bound, 105.8 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:55:15,733:INFO:PROGRESS: pass 1, at document #7708/7708
+2021-02-18 19:55:15,733:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:55:16,299:DEBUG:1625/1708 documents converged within 50 iterations
+2021-02-18 19:55:16,300:DEBUG:updating topics
+2021-02-18 19:55:16,303:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:55:16,306:INFO:topic #0 (0.200): 0.034*"pm" + 0.022*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"thank" + 0.011*"make" + 0.010*"great"
+2021-02-18 19:55:16,307:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.011*"lyft" + 0.011*"go" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.010*"get" + 0.010*"great"
+2021-02-18 19:55:16,307:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:16,307:INFO:topic #3 (0.200): 0.040*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"size" + 0.012*"drink" + 0.012*"latte"
+2021-02-18 19:55:16,307:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.022*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:55:16,308:INFO:topic diff=0.370121, rho=0.413308
+2021-02-18 19:55:16,344:DEBUG:bound: at document #0
+2021-02-18 19:55:17,421:DEBUG:bound: at document #2000
+2021-02-18 19:55:18,475:DEBUG:bound: at document #4000
+2021-02-18 19:55:19,492:DEBUG:bound: at document #6000
+2021-02-18 19:55:20,346:INFO:Epoch 1: Perplexity estimate: 99.33496230145303
+2021-02-18 19:55:20,355:INFO:Epoch 1: Convergence estimate: 2.9123619293693856
+2021-02-18 19:55:24,556:INFO:PROGRESS: pass 2, at document #2000/7708
+2021-02-18 19:55:24,557:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:25,277:DEBUG:1869/2000 documents converged within 50 iterations
+2021-02-18 19:55:25,278:DEBUG:updating topics
+2021-02-18 19:55:25,281:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:25,285:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.010*"great"
+2021-02-18 19:55:25,286:INFO:topic #1 (0.200): 0.036*"uber" + 0.029*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"xl" + 0.012*"go" + 0.012*"car" + 0.011*"thank" + 0.011*"great" + 0.011*"get"
+2021-02-18 19:55:25,286:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:25,286:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.026*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.014*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:55:25,286:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:55:25,286:INFO:topic diff=0.319392, rho=0.381969
+2021-02-18 19:55:25,287:INFO:PROGRESS: pass 2, at document #4000/7708
+2021-02-18 19:55:25,287:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:25,991:DEBUG:1871/2000 documents converged within 50 iterations
+2021-02-18 19:55:25,991:DEBUG:updating topics
+2021-02-18 19:55:25,994:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:25,998:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"thank" + 0.011*"make" + 0.011*"great"
+2021-02-18 19:55:25,998:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.013*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:25,998:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:25,999:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.013*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"grande" + 0.012*"size"
+2021-02-18 19:55:25,999:INFO:topic #4 (0.200): 0.051*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.016*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.012*"thank"
+2021-02-18 19:55:25,999:INFO:topic diff=0.298056, rho=0.381969
+2021-02-18 19:55:25,999:INFO:PROGRESS: pass 2, at document #6000/7708
+2021-02-18 19:55:25,999:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:26,663:DEBUG:1879/2000 documents converged within 50 iterations
+2021-02-18 19:55:26,663:DEBUG:updating topics
+2021-02-18 19:55:26,666:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:26,670:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:55:26,670:INFO:topic #1 (0.200): 0.036*"uber" + 0.031*"ride" + 0.014*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"car" + 0.011*"thank" + 0.010*"great"
+2021-02-18 19:55:26,670:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.013*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:26,671:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.024*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.012*"size" + 0.012*"drink" + 0.012*"grande"
+2021-02-18 19:55:26,671:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.014*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:55:26,671:INFO:topic diff=0.287419, rho=0.381969
+2021-02-18 19:55:26,682:DEBUG:bound: at document #0
+2021-02-18 19:55:27,548:INFO:-6.679 per-word bound, 102.5 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:55:27,549:INFO:PROGRESS: pass 2, at document #7708/7708
+2021-02-18 19:55:27,549:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:55:28,101:DEBUG:1616/1708 documents converged within 50 iterations
+2021-02-18 19:55:28,101:DEBUG:updating topics
+2021-02-18 19:55:28,104:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:55:28,108:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.010*"great"
+2021-02-18 19:55:28,108:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:28,108:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:28,108:INFO:topic #3 (0.200): 0.041*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"size" + 0.013*"drink" + 0.012*"latte"
+2021-02-18 19:55:28,109:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:55:28,109:INFO:topic diff=0.264262, rho=0.381969
+2021-02-18 19:55:28,149:DEBUG:bound: at document #0
+2021-02-18 19:55:29,199:DEBUG:bound: at document #2000
+2021-02-18 19:55:30,200:DEBUG:bound: at document #4000
+2021-02-18 19:55:31,198:DEBUG:bound: at document #6000
+2021-02-18 19:55:32,076:INFO:Epoch 2: Perplexity estimate: 98.39232447224607
+2021-02-18 19:55:32,081:INFO:Epoch 2: Convergence estimate: 3.0
+2021-02-18 19:55:37,545:INFO:PROGRESS: pass 3, at document #2000/7708
+2021-02-18 19:55:37,546:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:38,236:DEBUG:1880/2000 documents converged within 50 iterations
+2021-02-18 19:55:38,237:DEBUG:updating topics
+2021-02-18 19:55:38,240:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:38,245:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.010*"great"
+2021-02-18 19:55:38,245:INFO:topic #1 (0.200): 0.036*"uber" + 0.029*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:38,246:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:38,246:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.026*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.014*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:55:38,246:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:55:38,246:INFO:topic diff=0.248950, rho=0.356824
+2021-02-18 19:55:38,246:INFO:PROGRESS: pass 3, at document #4000/7708
+2021-02-18 19:55:38,247:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:38,943:DEBUG:1891/2000 documents converged within 50 iterations
+2021-02-18 19:55:38,944:DEBUG:updating topics
+2021-02-18 19:55:38,948:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:38,951:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:55:38,952:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.013*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:38,952:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:38,952:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.013*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"grande" + 0.012*"size"
+2021-02-18 19:55:38,952:INFO:topic #4 (0.200): 0.051*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.016*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.012*"thank"
+2021-02-18 19:55:38,952:INFO:topic diff=0.230979, rho=0.356824
+2021-02-18 19:55:38,953:INFO:PROGRESS: pass 3, at document #6000/7708
+2021-02-18 19:55:38,953:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:39,622:DEBUG:1896/2000 documents converged within 50 iterations
+2021-02-18 19:55:39,622:DEBUG:updating topics
+2021-02-18 19:55:39,626:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:39,629:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:55:39,629:INFO:topic #1 (0.200): 0.036*"uber" + 0.031*"ride" + 0.014*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:55:39,630:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:39,630:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.024*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:55:39,630:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:55:39,630:INFO:topic diff=0.227916, rho=0.356824
+2021-02-18 19:55:39,643:DEBUG:bound: at document #0
+2021-02-18 19:55:40,519:INFO:-6.663 per-word bound, 101.3 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:55:40,519:INFO:PROGRESS: pass 3, at document #7708/7708
+2021-02-18 19:55:40,519:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:55:41,067:DEBUG:1620/1708 documents converged within 50 iterations
+2021-02-18 19:55:41,067:DEBUG:updating topics
+2021-02-18 19:55:41,071:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:55:41,074:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:55:41,075:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:41,075:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:41,075:INFO:topic #3 (0.200): 0.041*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:55:41,075:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:55:41,076:INFO:topic diff=0.212770, rho=0.356824
+2021-02-18 19:55:41,119:DEBUG:bound: at document #0
+2021-02-18 19:55:42,205:DEBUG:bound: at document #2000
+2021-02-18 19:55:43,201:DEBUG:bound: at document #4000
+2021-02-18 19:55:44,180:DEBUG:bound: at document #6000
+2021-02-18 19:55:45,003:INFO:Epoch 3: Perplexity estimate: 98.01940428329779
+2021-02-18 19:55:45,007:INFO:Epoch 3: Convergence estimate: 2.0
+2021-02-18 19:55:51,514:INFO:PROGRESS: pass 4, at document #2000/7708
+2021-02-18 19:55:51,515:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:52,198:DEBUG:1894/2000 documents converged within 50 iterations
+2021-02-18 19:55:52,198:DEBUG:updating topics
+2021-02-18 19:55:52,202:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:52,206:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.010*"great"
+2021-02-18 19:55:52,206:INFO:topic #1 (0.200): 0.036*"uber" + 0.029*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:52,207:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:52,207:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.026*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.014*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:55:52,207:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:55:52,207:INFO:topic diff=0.209834, rho=0.336070
+2021-02-18 19:55:52,207:INFO:PROGRESS: pass 4, at document #4000/7708
+2021-02-18 19:55:52,207:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:52,859:DEBUG:1907/2000 documents converged within 50 iterations
+2021-02-18 19:55:52,859:DEBUG:updating topics
+2021-02-18 19:55:52,862:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:52,866:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:55:52,866:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:52,866:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:52,867:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"grande" + 0.012*"size"
+2021-02-18 19:55:52,867:INFO:topic #4 (0.200): 0.051*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.016*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:55:52,867:INFO:topic diff=0.195998, rho=0.336070
+2021-02-18 19:55:52,867:INFO:PROGRESS: pass 4, at document #6000/7708
+2021-02-18 19:55:52,867:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:55:53,541:DEBUG:1925/2000 documents converged within 50 iterations
+2021-02-18 19:55:53,541:DEBUG:updating topics
+2021-02-18 19:55:53,545:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:55:53,550:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:55:53,550:INFO:topic #1 (0.200): 0.036*"uber" + 0.031*"ride" + 0.014*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:55:53,550:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:53,550:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.024*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:55:53,551:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:55:53,551:INFO:topic diff=0.195836, rho=0.336070
+2021-02-18 19:55:53,572:DEBUG:bound: at document #0
+2021-02-18 19:55:54,471:INFO:-6.655 per-word bound, 100.8 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:55:54,471:INFO:PROGRESS: pass 4, at document #7708/7708
+2021-02-18 19:55:54,471:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:55:54,982:DEBUG:1636/1708 documents converged within 50 iterations
+2021-02-18 19:55:54,982:DEBUG:updating topics
+2021-02-18 19:55:54,985:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:55:54,989:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:55:54,989:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:55:54,989:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:55:54,990:INFO:topic #3 (0.200): 0.041*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:55:54,990:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:55:54,990:INFO:topic diff=0.185609, rho=0.336070
+2021-02-18 19:55:55,028:DEBUG:bound: at document #0
+2021-02-18 19:55:56,043:DEBUG:bound: at document #2000
+2021-02-18 19:55:57,008:DEBUG:bound: at document #4000
+2021-02-18 19:55:58,050:DEBUG:bound: at document #6000
+2021-02-18 19:55:58,993:INFO:Epoch 4: Perplexity estimate: 97.82241342216166
+2021-02-18 19:55:58,999:INFO:Epoch 4: Convergence estimate: 0.0
+2021-02-18 19:56:07,512:INFO:PROGRESS: pass 5, at document #2000/7708
+2021-02-18 19:56:07,512:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:08,145:DEBUG:1909/2000 documents converged within 50 iterations
+2021-02-18 19:56:08,145:DEBUG:updating topics
+2021-02-18 19:56:08,148:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:08,153:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:08,153:INFO:topic #1 (0.200): 0.036*"uber" + 0.029*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:08,153:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:08,153:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.026*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.014*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:56:08,154:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:56:08,154:INFO:topic diff=0.186368, rho=0.318562
+2021-02-18 19:56:08,154:INFO:PROGRESS: pass 5, at document #4000/7708
+2021-02-18 19:56:08,154:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:08,760:DEBUG:1923/2000 documents converged within 50 iterations
+2021-02-18 19:56:08,760:DEBUG:updating topics
+2021-02-18 19:56:08,763:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:08,767:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:08,767:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:08,767:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:08,768:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:56:08,768:INFO:topic #4 (0.200): 0.051*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.016*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:56:08,768:INFO:topic diff=0.175380, rho=0.318562
+2021-02-18 19:56:08,768:INFO:PROGRESS: pass 5, at document #6000/7708
+2021-02-18 19:56:08,768:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:09,392:DEBUG:1927/2000 documents converged within 50 iterations
+2021-02-18 19:56:09,393:DEBUG:updating topics
+2021-02-18 19:56:09,396:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:09,400:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.019*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:09,400:INFO:topic #1 (0.200): 0.036*"uber" + 0.031*"ride" + 0.014*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:56:09,400:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:09,401:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.024*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:56:09,401:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:56:09,401:INFO:topic diff=0.176289, rho=0.318562
+2021-02-18 19:56:09,412:DEBUG:bound: at document #0
+2021-02-18 19:56:10,243:INFO:-6.650 per-word bound, 100.5 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:56:10,243:INFO:PROGRESS: pass 5, at document #7708/7708
+2021-02-18 19:56:10,244:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:56:10,745:DEBUG:1643/1708 documents converged within 50 iterations
+2021-02-18 19:56:10,745:DEBUG:updating topics
+2021-02-18 19:56:10,748:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:56:10,752:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:10,752:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:10,753:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:10,753:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:56:10,753:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:56:10,753:INFO:topic diff=0.168778, rho=0.318562
+2021-02-18 19:56:10,792:DEBUG:bound: at document #0
+2021-02-18 19:56:12,020:DEBUG:bound: at document #2000
+2021-02-18 19:56:13,056:DEBUG:bound: at document #4000
+2021-02-18 19:56:14,007:DEBUG:bound: at document #6000
+2021-02-18 19:56:14,830:INFO:Epoch 5: Perplexity estimate: 97.69544452793191
+2021-02-18 19:56:14,834:INFO:Epoch 5: Convergence estimate: 0.0
+2021-02-18 19:56:24,467:INFO:PROGRESS: pass 6, at document #2000/7708
+2021-02-18 19:56:24,468:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:25,103:DEBUG:1917/2000 documents converged within 50 iterations
+2021-02-18 19:56:25,103:DEBUG:updating topics
+2021-02-18 19:56:25,107:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:25,111:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:25,111:INFO:topic #1 (0.200): 0.036*"uber" + 0.029*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:25,111:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:25,112:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.026*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.014*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:56:25,112:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:56:25,112:INFO:topic diff=0.170561, rho=0.303532
+2021-02-18 19:56:25,112:INFO:PROGRESS: pass 6, at document #4000/7708
+2021-02-18 19:56:25,112:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:25,806:DEBUG:1929/2000 documents converged within 50 iterations
+2021-02-18 19:56:25,806:DEBUG:updating topics
+2021-02-18 19:56:25,810:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:25,814:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:25,814:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:25,815:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:25,815:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:56:25,815:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.016*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:56:25,815:INFO:topic diff=0.161445, rho=0.303532
+2021-02-18 19:56:25,816:INFO:PROGRESS: pass 6, at document #6000/7708
+2021-02-18 19:56:25,816:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:26,528:DEBUG:1937/2000 documents converged within 50 iterations
+2021-02-18 19:56:26,529:DEBUG:updating topics
+2021-02-18 19:56:26,532:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:26,536:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:26,536:INFO:topic #1 (0.200): 0.036*"uber" + 0.031*"ride" + 0.014*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:56:26,537:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:26,537:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:56:26,537:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:56:26,538:INFO:topic diff=0.162736, rho=0.303532
+2021-02-18 19:56:26,549:DEBUG:bound: at document #0
+2021-02-18 19:56:27,509:INFO:-6.647 per-word bound, 100.2 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:56:27,509:INFO:PROGRESS: pass 6, at document #7708/7708
+2021-02-18 19:56:27,509:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:56:28,060:DEBUG:1640/1708 documents converged within 50 iterations
+2021-02-18 19:56:28,060:DEBUG:updating topics
+2021-02-18 19:56:28,064:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:56:28,067:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:28,068:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:28,068:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:28,068:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:56:28,068:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:56:28,068:INFO:topic diff=0.156686, rho=0.303532
+2021-02-18 19:56:28,109:DEBUG:bound: at document #0
+2021-02-18 19:56:29,167:DEBUG:bound: at document #2000
+2021-02-18 19:56:30,179:DEBUG:bound: at document #4000
+2021-02-18 19:56:31,191:DEBUG:bound: at document #6000
+2021-02-18 19:56:31,984:INFO:Epoch 6: Perplexity estimate: 97.6110179415341
+2021-02-18 19:56:31,988:INFO:Epoch 6: Convergence estimate: 0.0
+2021-02-18 19:56:42,403:INFO:PROGRESS: pass 7, at document #2000/7708
+2021-02-18 19:56:42,404:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:43,006:DEBUG:1915/2000 documents converged within 50 iterations
+2021-02-18 19:56:43,007:DEBUG:updating topics
+2021-02-18 19:56:43,010:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:43,014:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:43,014:INFO:topic #1 (0.200): 0.036*"uber" + 0.029*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:43,014:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:43,015:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.014*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:56:43,015:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:56:43,015:INFO:topic diff=0.159153, rho=0.290447
+2021-02-18 19:56:43,015:INFO:PROGRESS: pass 7, at document #4000/7708
+2021-02-18 19:56:43,015:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:43,633:DEBUG:1932/2000 documents converged within 50 iterations
+2021-02-18 19:56:43,633:DEBUG:updating topics
+2021-02-18 19:56:43,637:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:43,640:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:43,640:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:43,641:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:43,641:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:56:43,641:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:56:43,642:INFO:topic diff=0.151084, rho=0.290447
+2021-02-18 19:56:43,642:INFO:PROGRESS: pass 7, at document #6000/7708
+2021-02-18 19:56:43,642:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:56:44,320:DEBUG:1933/2000 documents converged within 50 iterations
+2021-02-18 19:56:44,320:DEBUG:updating topics
+2021-02-18 19:56:44,323:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:56:44,327:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:44,328:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.014*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:56:44,328:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:44,328:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:56:44,329:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:56:44,329:INFO:topic diff=0.152400, rho=0.290447
+2021-02-18 19:56:44,341:DEBUG:bound: at document #0
+2021-02-18 19:56:45,180:INFO:-6.644 per-word bound, 100.0 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:56:45,180:INFO:PROGRESS: pass 7, at document #7708/7708
+2021-02-18 19:56:45,180:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:56:45,687:DEBUG:1642/1708 documents converged within 50 iterations
+2021-02-18 19:56:45,687:DEBUG:updating topics
+2021-02-18 19:56:45,691:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:56:45,695:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:56:45,695:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:56:45,695:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:56:45,696:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:56:45,696:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:56:45,696:INFO:topic diff=0.147293, rho=0.290447
+2021-02-18 19:56:45,732:DEBUG:bound: at document #0
+2021-02-18 19:56:46,776:DEBUG:bound: at document #2000
+2021-02-18 19:56:47,846:DEBUG:bound: at document #4000
+2021-02-18 19:56:48,857:DEBUG:bound: at document #6000
+2021-02-18 19:56:49,698:INFO:Epoch 7: Perplexity estimate: 97.54798022637128
+2021-02-18 19:56:49,703:INFO:Epoch 7: Convergence estimate: 1.0
+2021-02-18 19:57:01,480:INFO:PROGRESS: pass 8, at document #2000/7708
+2021-02-18 19:57:01,481:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:02,079:DEBUG:1923/2000 documents converged within 50 iterations
+2021-02-18 19:57:02,079:DEBUG:updating topics
+2021-02-18 19:57:02,083:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:02,087:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:02,087:INFO:topic #1 (0.200): 0.036*"uber" + 0.029*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:02,087:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:02,087:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.014*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:57:02,088:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:57:02,088:INFO:topic diff=0.150022, rho=0.278921
+2021-02-18 19:57:02,088:INFO:PROGRESS: pass 8, at document #4000/7708
+2021-02-18 19:57:02,088:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:02,676:DEBUG:1935/2000 documents converged within 50 iterations
+2021-02-18 19:57:02,676:DEBUG:updating topics
+2021-02-18 19:57:02,679:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:02,683:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:02,683:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:02,684:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:02,684:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:57:02,684:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:57:02,684:INFO:topic diff=0.142766, rho=0.278921
+2021-02-18 19:57:02,684:INFO:PROGRESS: pass 8, at document #6000/7708
+2021-02-18 19:57:02,684:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:03,256:DEBUG:1947/2000 documents converged within 50 iterations
+2021-02-18 19:57:03,257:DEBUG:updating topics
+2021-02-18 19:57:03,260:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:03,263:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:03,264:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:57:03,264:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:03,264:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:57:03,264:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:57:03,265:INFO:topic diff=0.144111, rho=0.278921
+2021-02-18 19:57:03,277:DEBUG:bound: at document #0
+2021-02-18 19:57:04,082:INFO:-6.642 per-word bound, 99.9 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:57:04,082:INFO:PROGRESS: pass 8, at document #7708/7708
+2021-02-18 19:57:04,082:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:57:04,569:DEBUG:1650/1708 documents converged within 50 iterations
+2021-02-18 19:57:04,569:DEBUG:updating topics
+2021-02-18 19:57:04,573:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:57:04,576:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:04,577:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:04,577:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:04,577:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:57:04,577:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:57:04,578:INFO:topic diff=0.139581, rho=0.278921
+2021-02-18 19:57:04,611:DEBUG:bound: at document #0
+2021-02-18 19:57:05,602:DEBUG:bound: at document #2000
+2021-02-18 19:57:06,668:DEBUG:bound: at document #4000
+2021-02-18 19:57:07,636:DEBUG:bound: at document #6000
+2021-02-18 19:57:08,460:INFO:Epoch 8: Perplexity estimate: 97.49615078573379
+2021-02-18 19:57:08,465:INFO:Epoch 8: Convergence estimate: 2.0
+2021-02-18 19:57:22,164:INFO:PROGRESS: pass 9, at document #2000/7708
+2021-02-18 19:57:22,164:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:22,766:DEBUG:1925/2000 documents converged within 50 iterations
+2021-02-18 19:57:22,766:DEBUG:updating topics
+2021-02-18 19:57:22,770:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:22,773:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:22,774:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:22,774:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:22,774:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:57:22,774:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:57:22,775:INFO:topic diff=0.142543, rho=0.268666
+2021-02-18 19:57:22,775:INFO:PROGRESS: pass 9, at document #4000/7708
+2021-02-18 19:57:22,775:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:23,366:DEBUG:1934/2000 documents converged within 50 iterations
+2021-02-18 19:57:23,366:DEBUG:updating topics
+2021-02-18 19:57:23,370:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:23,374:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:23,374:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:23,375:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:23,375:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:57:23,375:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:57:23,375:INFO:topic diff=0.135789, rho=0.268666
+2021-02-18 19:57:23,376:INFO:PROGRESS: pass 9, at document #6000/7708
+2021-02-18 19:57:23,376:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:23,968:DEBUG:1949/2000 documents converged within 50 iterations
+2021-02-18 19:57:23,968:DEBUG:updating topics
+2021-02-18 19:57:23,972:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:23,975:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:23,976:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:57:23,976:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:23,976:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:57:23,976:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:57:23,976:INFO:topic diff=0.137276, rho=0.268666
+2021-02-18 19:57:23,988:DEBUG:bound: at document #0
+2021-02-18 19:57:24,796:INFO:-6.640 per-word bound, 99.8 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:57:24,796:INFO:PROGRESS: pass 9, at document #7708/7708
+2021-02-18 19:57:24,796:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:57:25,294:DEBUG:1653/1708 documents converged within 50 iterations
+2021-02-18 19:57:25,294:DEBUG:updating topics
+2021-02-18 19:57:25,297:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:57:25,301:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:25,301:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:25,301:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:25,301:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:57:25,301:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:57:25,302:INFO:topic diff=0.133090, rho=0.268666
+2021-02-18 19:57:25,337:DEBUG:bound: at document #0
+2021-02-18 19:57:26,310:DEBUG:bound: at document #2000
+2021-02-18 19:57:27,436:DEBUG:bound: at document #4000
+2021-02-18 19:57:28,525:DEBUG:bound: at document #6000
+2021-02-18 19:57:29,376:INFO:Epoch 9: Perplexity estimate: 97.45368630153982
+2021-02-18 19:57:29,381:INFO:Epoch 9: Convergence estimate: 0.0
+2021-02-18 19:57:45,247:INFO:PROGRESS: pass 10, at document #2000/7708
+2021-02-18 19:57:45,248:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:45,877:DEBUG:1925/2000 documents converged within 50 iterations
+2021-02-18 19:57:45,877:DEBUG:updating topics
+2021-02-18 19:57:45,881:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:45,885:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:45,885:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:45,886:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:45,886:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:57:45,886:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:57:45,886:INFO:topic diff=0.135971, rho=0.259465
+2021-02-18 19:57:45,887:INFO:PROGRESS: pass 10, at document #4000/7708
+2021-02-18 19:57:45,887:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:46,503:DEBUG:1937/2000 documents converged within 50 iterations
+2021-02-18 19:57:46,503:DEBUG:updating topics
+2021-02-18 19:57:46,507:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:46,510:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:46,511:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:46,511:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:46,511:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:57:46,511:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:57:46,511:INFO:topic diff=0.129786, rho=0.259465
+2021-02-18 19:57:46,512:INFO:PROGRESS: pass 10, at document #6000/7708
+2021-02-18 19:57:46,512:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:57:47,119:DEBUG:1947/2000 documents converged within 50 iterations
+2021-02-18 19:57:47,120:DEBUG:updating topics
+2021-02-18 19:57:47,123:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:57:47,126:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:47,127:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:57:47,127:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:47,127:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:57:47,127:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:57:47,128:INFO:topic diff=0.131198, rho=0.259465
+2021-02-18 19:57:47,138:DEBUG:bound: at document #0
+2021-02-18 19:57:48,150:INFO:-6.639 per-word bound, 99.7 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:57:48,150:INFO:PROGRESS: pass 10, at document #7708/7708
+2021-02-18 19:57:48,150:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:57:48,656:DEBUG:1656/1708 documents converged within 50 iterations
+2021-02-18 19:57:48,656:DEBUG:updating topics
+2021-02-18 19:57:48,659:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:57:48,663:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:57:48,663:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:57:48,663:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:57:48,664:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:57:48,664:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:57:48,664:INFO:topic diff=0.127395, rho=0.259465
+2021-02-18 19:57:48,700:DEBUG:bound: at document #0
+2021-02-18 19:57:49,718:DEBUG:bound: at document #2000
+2021-02-18 19:57:50,712:DEBUG:bound: at document #4000
+2021-02-18 19:57:51,680:DEBUG:bound: at document #6000
+2021-02-18 19:57:52,471:INFO:Epoch 10: Perplexity estimate: 97.41697904219954
+2021-02-18 19:57:52,476:INFO:Epoch 10: Convergence estimate: 0.0
+2021-02-18 19:58:09,006:INFO:PROGRESS: pass 11, at document #2000/7708
+2021-02-18 19:58:09,008:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:58:09,616:DEBUG:1927/2000 documents converged within 50 iterations
+2021-02-18 19:58:09,616:DEBUG:updating topics
+2021-02-18 19:58:09,620:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:58:09,624:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:58:09,624:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:58:09,624:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:58:09,625:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:58:09,625:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:58:09,625:INFO:topic diff=0.130376, rho=0.251148
+2021-02-18 19:58:09,625:INFO:PROGRESS: pass 11, at document #4000/7708
+2021-02-18 19:58:09,625:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:58:10,243:DEBUG:1931/2000 documents converged within 50 iterations
+2021-02-18 19:58:10,243:DEBUG:updating topics
+2021-02-18 19:58:10,247:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:58:10,250:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:58:10,251:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:58:10,251:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:58:10,251:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:58:10,252:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:58:10,252:INFO:topic diff=0.124531, rho=0.251148
+2021-02-18 19:58:10,252:INFO:PROGRESS: pass 11, at document #6000/7708
+2021-02-18 19:58:10,252:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:58:10,861:DEBUG:1945/2000 documents converged within 50 iterations
+2021-02-18 19:58:10,861:DEBUG:updating topics
+2021-02-18 19:58:10,864:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:58:10,868:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:58:10,868:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:58:10,868:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:58:10,869:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:58:10,869:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:58:10,869:INFO:topic diff=0.125925, rho=0.251148
+2021-02-18 19:58:10,881:DEBUG:bound: at document #0
+2021-02-18 19:58:11,732:INFO:-6.638 per-word bound, 99.6 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:58:11,732:INFO:PROGRESS: pass 11, at document #7708/7708
+2021-02-18 19:58:11,732:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:58:12,217:DEBUG:1652/1708 documents converged within 50 iterations
+2021-02-18 19:58:12,217:DEBUG:updating topics
+2021-02-18 19:58:12,220:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:58:12,224:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:58:12,224:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:58:12,224:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:58:12,224:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:58:12,225:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:58:12,225:INFO:topic diff=0.122544, rho=0.251148
+2021-02-18 19:58:12,262:DEBUG:bound: at document #0
+2021-02-18 19:58:13,324:DEBUG:bound: at document #2000
+2021-02-18 19:58:14,351:DEBUG:bound: at document #4000
+2021-02-18 19:58:15,359:DEBUG:bound: at document #6000
+2021-02-18 19:58:16,184:INFO:Epoch 11: Perplexity estimate: 97.38649062015577
+2021-02-18 19:58:16,189:INFO:Epoch 11: Convergence estimate: 0.0
+2021-02-18 19:58:35,088:INFO:PROGRESS: pass 12, at document #2000/7708
+2021-02-18 19:58:35,090:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:58:35,696:DEBUG:1929/2000 documents converged within 50 iterations
+2021-02-18 19:58:35,698:DEBUG:updating topics
+2021-02-18 19:58:35,703:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:58:35,707:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:58:35,708:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:58:35,708:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:58:35,708:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:58:35,709:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:58:35,709:INFO:topic diff=0.125494, rho=0.243584
+2021-02-18 19:58:35,709:INFO:PROGRESS: pass 12, at document #4000/7708
+2021-02-18 19:58:35,709:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:58:36,323:DEBUG:1937/2000 documents converged within 50 iterations
+2021-02-18 19:58:36,323:DEBUG:updating topics
+2021-02-18 19:58:36,327:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:58:36,331:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:58:36,331:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:58:36,331:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:58:36,332:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:58:36,332:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:58:36,332:INFO:topic diff=0.119925, rho=0.243584
+2021-02-18 19:58:36,332:INFO:PROGRESS: pass 12, at document #6000/7708
+2021-02-18 19:58:36,332:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:58:36,946:DEBUG:1943/2000 documents converged within 50 iterations
+2021-02-18 19:58:36,947:DEBUG:updating topics
+2021-02-18 19:58:36,950:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:58:36,953:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:58:36,954:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:58:36,954:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:58:36,954:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:58:36,954:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:58:36,955:INFO:topic diff=0.121361, rho=0.243584
+2021-02-18 19:58:36,965:DEBUG:bound: at document #0
+2021-02-18 19:58:37,770:INFO:-6.636 per-word bound, 99.5 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:58:37,770:INFO:PROGRESS: pass 12, at document #7708/7708
+2021-02-18 19:58:37,770:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:58:38,280:DEBUG:1653/1708 documents converged within 50 iterations
+2021-02-18 19:58:38,281:DEBUG:updating topics
+2021-02-18 19:58:38,284:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:58:38,288:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:58:38,288:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:58:38,288:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:58:38,288:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:58:38,289:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:58:38,289:INFO:topic diff=0.118035, rho=0.243584
+2021-02-18 19:58:38,324:DEBUG:bound: at document #0
+2021-02-18 19:58:39,300:DEBUG:bound: at document #2000
+2021-02-18 19:58:40,278:DEBUG:bound: at document #4000
+2021-02-18 19:58:41,265:DEBUG:bound: at document #6000
+2021-02-18 19:58:42,151:INFO:Epoch 12: Perplexity estimate: 97.3592839843653
+2021-02-18 19:58:42,156:INFO:Epoch 12: Convergence estimate: 0.0
+2021-02-18 19:59:00,722:INFO:PROGRESS: pass 13, at document #2000/7708
+2021-02-18 19:59:00,723:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:01,307:DEBUG:1933/2000 documents converged within 50 iterations
+2021-02-18 19:59:01,308:DEBUG:updating topics
+2021-02-18 19:59:01,311:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:01,315:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:01,315:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:59:01,315:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:01,316:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:59:01,316:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:59:01,316:INFO:topic diff=0.120995, rho=0.236664
+2021-02-18 19:59:01,316:INFO:PROGRESS: pass 13, at document #4000/7708
+2021-02-18 19:59:01,316:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:01,904:DEBUG:1931/2000 documents converged within 50 iterations
+2021-02-18 19:59:01,905:DEBUG:updating topics
+2021-02-18 19:59:01,908:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:01,912:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"available" + 0.016*"restaurant" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:01,912:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:59:01,912:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:01,913:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:59:01,913:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:59:01,913:INFO:topic diff=0.115727, rho=0.236664
+2021-02-18 19:59:01,913:INFO:PROGRESS: pass 13, at document #6000/7708
+2021-02-18 19:59:01,913:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:02,520:DEBUG:1945/2000 documents converged within 50 iterations
+2021-02-18 19:59:02,520:DEBUG:updating topics
+2021-02-18 19:59:02,523:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:02,527:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:02,528:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:59:02,528:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:02,528:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:59:02,529:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:59:02,529:INFO:topic diff=0.117117, rho=0.236664
+2021-02-18 19:59:02,539:DEBUG:bound: at document #0
+2021-02-18 19:59:03,421:INFO:-6.635 per-word bound, 99.4 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:59:03,421:INFO:PROGRESS: pass 13, at document #7708/7708
+2021-02-18 19:59:03,421:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:59:03,959:DEBUG:1661/1708 documents converged within 50 iterations
+2021-02-18 19:59:03,960:DEBUG:updating topics
+2021-02-18 19:59:03,963:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:59:03,966:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:03,967:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:59:03,967:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:03,967:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:59:03,967:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:59:03,968:INFO:topic diff=0.114098, rho=0.236664
+2021-02-18 19:59:04,005:DEBUG:bound: at document #0
+2021-02-18 19:59:05,002:DEBUG:bound: at document #2000
+2021-02-18 19:59:06,002:DEBUG:bound: at document #4000
+2021-02-18 19:59:06,959:DEBUG:bound: at document #6000
+2021-02-18 19:59:07,785:INFO:Epoch 13: Perplexity estimate: 97.33702340734301
+2021-02-18 19:59:07,791:INFO:Epoch 13: Convergence estimate: 0.0
+2021-02-18 19:59:28,924:INFO:PROGRESS: pass 14, at document #2000/7708
+2021-02-18 19:59:28,925:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:29,563:DEBUG:1927/2000 documents converged within 50 iterations
+2021-02-18 19:59:29,563:DEBUG:updating topics
+2021-02-18 19:59:29,567:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:29,571:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:29,571:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:59:29,572:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:29,572:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:59:29,572:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:59:29,572:INFO:topic diff=0.116982, rho=0.230302
+2021-02-18 19:59:29,573:INFO:PROGRESS: pass 14, at document #4000/7708
+2021-02-18 19:59:29,573:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:30,189:DEBUG:1939/2000 documents converged within 50 iterations
+2021-02-18 19:59:30,189:DEBUG:updating topics
+2021-02-18 19:59:30,192:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:30,196:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:30,196:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.012*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:59:30,197:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:30,197:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:59:30,197:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:59:30,197:INFO:topic diff=0.111988, rho=0.230302
+2021-02-18 19:59:30,197:INFO:PROGRESS: pass 14, at document #6000/7708
+2021-02-18 19:59:30,197:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:30,792:DEBUG:1947/2000 documents converged within 50 iterations
+2021-02-18 19:59:30,792:DEBUG:updating topics
+2021-02-18 19:59:30,795:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:30,799:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:30,800:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"thank" + 0.011*"car" + 0.010*"great"
+2021-02-18 19:59:30,800:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:30,800:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:59:30,800:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:59:30,801:INFO:topic diff=0.113328, rho=0.230302
+2021-02-18 19:59:30,811:DEBUG:bound: at document #0
+2021-02-18 19:59:31,644:INFO:-6.634 per-word bound, 99.3 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:59:31,644:INFO:PROGRESS: pass 14, at document #7708/7708
+2021-02-18 19:59:31,644:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 19:59:32,151:DEBUG:1660/1708 documents converged within 50 iterations
+2021-02-18 19:59:32,151:DEBUG:updating topics
+2021-02-18 19:59:32,155:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 19:59:32,159:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:32,159:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:59:32,160:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:32,160:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 19:59:32,160:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 19:59:32,160:INFO:topic diff=0.110453, rho=0.230302
+2021-02-18 19:59:32,198:DEBUG:bound: at document #0
+2021-02-18 19:59:33,206:DEBUG:bound: at document #2000
+2021-02-18 19:59:34,211:DEBUG:bound: at document #4000
+2021-02-18 19:59:35,215:DEBUG:bound: at document #6000
+2021-02-18 19:59:36,047:INFO:Epoch 14: Perplexity estimate: 97.3183921351286
+2021-02-18 19:59:36,052:INFO:Epoch 14: Convergence estimate: 1.0
+2021-02-18 19:59:57,090:INFO:PROGRESS: pass 15, at document #2000/7708
+2021-02-18 19:59:57,090:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:57,677:DEBUG:1929/2000 documents converged within 50 iterations
+2021-02-18 19:59:57,677:DEBUG:updating topics
+2021-02-18 19:59:57,680:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:57,684:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:57,685:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:59:57,685:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:57,685:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:59:57,685:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 19:59:57,686:INFO:topic diff=0.113388, rho=0.224427
+2021-02-18 19:59:57,686:INFO:PROGRESS: pass 15, at document #4000/7708
+2021-02-18 19:59:57,686:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:58,282:DEBUG:1939/2000 documents converged within 50 iterations
+2021-02-18 19:59:58,282:DEBUG:updating topics
+2021-02-18 19:59:58,285:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:58,289:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:58,289:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 19:59:58,290:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:58,290:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 19:59:58,290:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:59:58,290:INFO:topic diff=0.108622, rho=0.224427
+2021-02-18 19:59:58,291:INFO:PROGRESS: pass 15, at document #6000/7708
+2021-02-18 19:59:58,291:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 19:59:58,861:DEBUG:1947/2000 documents converged within 50 iterations
+2021-02-18 19:59:58,861:DEBUG:updating topics
+2021-02-18 19:59:58,865:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 19:59:58,868:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 19:59:58,869:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"car" + 0.011*"thank" + 0.010*"great"
+2021-02-18 19:59:58,869:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 19:59:58,869:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 19:59:58,869:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 19:59:58,870:INFO:topic diff=0.109900, rho=0.224427
+2021-02-18 19:59:58,880:DEBUG:bound: at document #0
+2021-02-18 19:59:59,690:INFO:-6.634 per-word bound, 99.3 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 19:59:59,691:INFO:PROGRESS: pass 15, at document #7708/7708
+2021-02-18 19:59:59,691:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 20:00:00,179:DEBUG:1657/1708 documents converged within 50 iterations
+2021-02-18 20:00:00,179:DEBUG:updating topics
+2021-02-18 20:00:00,182:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 20:00:00,186:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:00:00,186:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:00:00,187:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:00:00,187:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 20:00:00,187:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 20:00:00,187:INFO:topic diff=0.107173, rho=0.224427
+2021-02-18 20:00:00,228:DEBUG:bound: at document #0
+2021-02-18 20:00:01,182:DEBUG:bound: at document #2000
+2021-02-18 20:00:02,126:DEBUG:bound: at document #4000
+2021-02-18 20:00:03,049:DEBUG:bound: at document #6000
+2021-02-18 20:00:03,834:INFO:Epoch 15: Perplexity estimate: 97.30061344906422
+2021-02-18 20:00:03,839:INFO:Epoch 15: Convergence estimate: 0.0
+2021-02-18 20:00:26,624:INFO:PROGRESS: pass 16, at document #2000/7708
+2021-02-18 20:00:26,624:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:00:27,236:DEBUG:1929/2000 documents converged within 50 iterations
+2021-02-18 20:00:27,237:DEBUG:updating topics
+2021-02-18 20:00:27,240:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:00:27,245:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:00:27,245:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:00:27,245:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:00:27,245:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 20:00:27,246:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 20:00:27,246:INFO:topic diff=0.110150, rho=0.218980
+2021-02-18 20:00:27,246:INFO:PROGRESS: pass 16, at document #4000/7708
+2021-02-18 20:00:27,246:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:00:27,843:DEBUG:1940/2000 documents converged within 50 iterations
+2021-02-18 20:00:27,843:DEBUG:updating topics
+2021-02-18 20:00:27,846:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:00:27,850:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:00:27,850:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:00:27,851:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:00:27,851:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 20:00:27,851:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 20:00:27,851:INFO:topic diff=0.105499, rho=0.218980
+2021-02-18 20:00:27,851:INFO:PROGRESS: pass 16, at document #6000/7708
+2021-02-18 20:00:27,851:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:00:28,477:DEBUG:1948/2000 documents converged within 50 iterations
+2021-02-18 20:00:28,477:DEBUG:updating topics
+2021-02-18 20:00:28,480:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:00:28,484:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:00:28,484:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"car" + 0.011*"thank" + 0.010*"great"
+2021-02-18 20:00:28,485:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:00:28,485:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 20:00:28,485:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 20:00:28,485:INFO:topic diff=0.106735, rho=0.218980
+2021-02-18 20:00:28,496:DEBUG:bound: at document #0
+2021-02-18 20:00:29,298:INFO:-6.633 per-word bound, 99.2 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 20:00:29,298:INFO:PROGRESS: pass 16, at document #7708/7708
+2021-02-18 20:00:29,298:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 20:00:29,781:DEBUG:1662/1708 documents converged within 50 iterations
+2021-02-18 20:00:29,781:DEBUG:updating topics
+2021-02-18 20:00:29,785:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 20:00:29,788:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:00:29,789:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:00:29,789:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:00:29,789:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 20:00:29,789:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 20:00:29,790:INFO:topic diff=0.104210, rho=0.218980
+2021-02-18 20:00:29,830:DEBUG:bound: at document #0
+2021-02-18 20:00:30,774:DEBUG:bound: at document #2000
+2021-02-18 20:00:31,705:DEBUG:bound: at document #4000
+2021-02-18 20:00:32,636:DEBUG:bound: at document #6000
+2021-02-18 20:00:33,455:INFO:Epoch 16: Perplexity estimate: 97.28410132550152
+2021-02-18 20:00:33,460:INFO:Epoch 16: Convergence estimate: 1.0
+2021-02-18 20:00:58,518:INFO:PROGRESS: pass 17, at document #2000/7708
+2021-02-18 20:00:58,518:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:00:59,149:DEBUG:1930/2000 documents converged within 50 iterations
+2021-02-18 20:00:59,149:DEBUG:updating topics
+2021-02-18 20:00:59,153:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:00:59,157:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:00:59,157:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:00:59,157:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:00:59,157:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 20:00:59,158:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 20:00:59,158:INFO:topic diff=0.107123, rho=0.213912
+2021-02-18 20:00:59,158:INFO:PROGRESS: pass 17, at document #4000/7708
+2021-02-18 20:00:59,158:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:00:59,774:DEBUG:1941/2000 documents converged within 50 iterations
+2021-02-18 20:00:59,775:DEBUG:updating topics
+2021-02-18 20:00:59,778:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:00:59,782:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:00:59,782:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:00:59,782:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:00:59,783:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 20:00:59,783:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 20:00:59,783:INFO:topic diff=0.102647, rho=0.213912
+2021-02-18 20:00:59,784:INFO:PROGRESS: pass 17, at document #6000/7708
+2021-02-18 20:00:59,784:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:01:00,363:DEBUG:1946/2000 documents converged within 50 iterations
+2021-02-18 20:01:00,363:DEBUG:updating topics
+2021-02-18 20:01:00,367:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:01:00,371:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:01:00,371:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"car" + 0.011*"thank" + 0.010*"great"
+2021-02-18 20:01:00,371:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:01:00,372:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 20:01:00,372:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 20:01:00,372:INFO:topic diff=0.103903, rho=0.213912
+2021-02-18 20:01:00,382:DEBUG:bound: at document #0
+2021-02-18 20:01:01,188:INFO:-6.632 per-word bound, 99.2 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 20:01:01,188:INFO:PROGRESS: pass 17, at document #7708/7708
+2021-02-18 20:01:01,188:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 20:01:01,671:DEBUG:1661/1708 documents converged within 50 iterations
+2021-02-18 20:01:01,672:DEBUG:updating topics
+2021-02-18 20:01:01,675:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 20:01:01,678:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:01:01,679:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.011*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:01:01,679:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:01:01,679:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 20:01:01,679:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 20:01:01,680:INFO:topic diff=0.101457, rho=0.213912
+2021-02-18 20:01:01,716:DEBUG:bound: at document #0
+2021-02-18 20:01:02,668:DEBUG:bound: at document #2000
+2021-02-18 20:01:03,610:DEBUG:bound: at document #4000
+2021-02-18 20:01:04,552:DEBUG:bound: at document #6000
+2021-02-18 20:01:05,348:INFO:Epoch 17: Perplexity estimate: 97.26934589091076
+2021-02-18 20:01:05,352:INFO:Epoch 17: Convergence estimate: 0.0
+2021-02-18 20:01:31,922:INFO:PROGRESS: pass 18, at document #2000/7708
+2021-02-18 20:01:31,922:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:01:32,505:DEBUG:1931/2000 documents converged within 50 iterations
+2021-02-18 20:01:32,506:DEBUG:updating topics
+2021-02-18 20:01:32,509:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:01:32,513:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:01:32,513:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:01:32,514:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:01:32,514:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 20:01:32,514:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 20:01:32,514:INFO:topic diff=0.104278, rho=0.209179
+2021-02-18 20:01:32,515:INFO:PROGRESS: pass 18, at document #4000/7708
+2021-02-18 20:01:32,515:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:01:33,091:DEBUG:1941/2000 documents converged within 50 iterations
+2021-02-18 20:01:33,091:DEBUG:updating topics
+2021-02-18 20:01:33,094:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:01:33,098:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:01:33,098:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:01:33,098:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:01:33,099:INFO:topic #3 (0.200): 0.043*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 20:01:33,099:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 20:01:33,099:INFO:topic diff=0.100002, rho=0.209179
+2021-02-18 20:01:33,099:INFO:PROGRESS: pass 18, at document #6000/7708
+2021-02-18 20:01:33,099:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:01:33,717:DEBUG:1948/2000 documents converged within 50 iterations
+2021-02-18 20:01:33,718:DEBUG:updating topics
+2021-02-18 20:01:33,721:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:01:33,725:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:01:33,725:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"car" + 0.011*"thank" + 0.010*"great"
+2021-02-18 20:01:33,726:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:01:33,726:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 20:01:33,726:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 20:01:33,726:INFO:topic diff=0.101199, rho=0.209179
+2021-02-18 20:01:33,737:DEBUG:bound: at document #0
+2021-02-18 20:01:34,610:INFO:-6.631 per-word bound, 99.1 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 20:01:34,610:INFO:PROGRESS: pass 18, at document #7708/7708
+2021-02-18 20:01:34,610:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 20:01:35,101:DEBUG:1662/1708 documents converged within 50 iterations
+2021-02-18 20:01:35,102:DEBUG:updating topics
+2021-02-18 20:01:35,105:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 20:01:35,108:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:01:35,109:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:01:35,109:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:01:35,109:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 20:01:35,110:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 20:01:35,110:INFO:topic diff=0.098929, rho=0.209179
+2021-02-18 20:01:35,147:DEBUG:bound: at document #0
+2021-02-18 20:01:36,231:DEBUG:bound: at document #2000
+2021-02-18 20:01:37,221:DEBUG:bound: at document #4000
+2021-02-18 20:01:38,166:DEBUG:bound: at document #6000
+2021-02-18 20:01:38,967:INFO:Epoch 18: Perplexity estimate: 97.25601295433412
+2021-02-18 20:01:38,972:INFO:Epoch 18: Convergence estimate: 0.0
+2021-02-18 20:02:06,480:INFO:PROGRESS: pass 19, at document #2000/7708
+2021-02-18 20:02:06,481:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:02:07,220:DEBUG:1930/2000 documents converged within 50 iterations
+2021-02-18 20:02:07,221:DEBUG:updating topics
+2021-02-18 20:02:07,224:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:02:07,228:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:02:07,229:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:02:07,229:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:02:07,229:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 20:02:07,229:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.029*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.012*"thank" + 0.011*"tonight"
+2021-02-18 20:02:07,229:INFO:topic diff=0.101661, rho=0.204748
+2021-02-18 20:02:07,230:INFO:PROGRESS: pass 19, at document #4000/7708
+2021-02-18 20:02:07,230:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:02:07,812:DEBUG:1941/2000 documents converged within 50 iterations
+2021-02-18 20:02:07,813:DEBUG:updating topics
+2021-02-18 20:02:07,816:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:02:07,820:INFO:topic #0 (0.200): 0.035*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.011*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:02:07,821:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:02:07,821:INFO:topic #2 (0.200): 0.035*"pizza" + 0.023*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:02:07,821:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.012*"size" + 0.012*"grande"
+2021-02-18 20:02:07,822:INFO:topic #4 (0.200): 0.050*"tickets" + 0.032*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 20:02:07,822:INFO:topic diff=0.097584, rho=0.204748
+2021-02-18 20:02:07,822:INFO:PROGRESS: pass 19, at document #6000/7708
+2021-02-18 20:02:07,822:DEBUG:performing inference on a chunk of 2000 documents
+2021-02-18 20:02:08,510:DEBUG:1951/2000 documents converged within 50 iterations
+2021-02-18 20:02:08,510:DEBUG:updating topics
+2021-02-18 20:02:08,513:INFO:merging changes from 2000 documents into a model of 7708 documents
+2021-02-18 20:02:08,517:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:02:08,517:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"lyft" + 0.012*"go" + 0.012*"xl" + 0.011*"get" + 0.011*"car" + 0.011*"thank" + 0.010*"great"
+2021-02-18 20:02:08,517:INFO:topic #2 (0.200): 0.034*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:02:08,517:INFO:topic #3 (0.200): 0.042*"order" + 0.035*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"grande"
+2021-02-18 20:02:08,518:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"two" + 0.017*"showing" + 0.015*"theater" + 0.014*"time" + 0.012*"tonight" + 0.011*"thank"
+2021-02-18 20:02:08,518:INFO:topic diff=0.098748, rho=0.204748
+2021-02-18 20:02:08,528:DEBUG:bound: at document #0
+2021-02-18 20:02:09,409:INFO:-6.631 per-word bound, 99.1 perplexity estimate based on a held-out corpus of 1708 documents with 134112 words
+2021-02-18 20:02:09,409:INFO:PROGRESS: pass 19, at document #7708/7708
+2021-02-18 20:02:09,409:DEBUG:performing inference on a chunk of 1708 documents
+2021-02-18 20:02:09,983:DEBUG:1662/1708 documents converged within 50 iterations
+2021-02-18 20:02:09,984:DEBUG:updating topics
+2021-02-18 20:02:09,988:INFO:merging changes from 1708 documents into a model of 7708 documents
+2021-02-18 20:02:09,993:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:02:09,994:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:02:09,994:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:02:09,995:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 20:02:09,995:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
+2021-02-18 20:02:09,995:INFO:topic diff=0.096523, rho=0.204748
+2021-02-18 20:02:10,061:DEBUG:bound: at document #0
+2021-02-18 20:02:11,244:DEBUG:bound: at document #2000
+2021-02-18 20:02:12,223:DEBUG:bound: at document #4000
+2021-02-18 20:02:13,162:DEBUG:bound: at document #6000
+2021-02-18 20:02:13,961:INFO:Epoch 19: Perplexity estimate: 97.24444754327448
+2021-02-18 20:02:13,965:INFO:Epoch 19: Convergence estimate: 0.0
+2021-02-18 20:02:44,867:INFO:topic #0 (0.200): 0.034*"pm" + 0.023*"reservation" + 0.020*"table" + 0.018*"time" + 0.016*"restaurant" + 0.016*"available" + 0.013*"people" + 0.012*"make" + 0.011*"thank" + 0.011*"great"
+2021-02-18 20:02:44,867:INFO:topic #1 (0.200): 0.036*"uber" + 0.030*"ride" + 0.013*"minutes" + 0.012*"go" + 0.012*"lyft" + 0.012*"xl" + 0.011*"car" + 0.011*"thank" + 0.011*"get" + 0.010*"great"
+2021-02-18 20:02:44,868:INFO:topic #2 (0.200): 0.035*"pizza" + 0.022*"order" + 0.015*"appointment" + 0.015*"car" + 0.014*"large" + 0.012*"thank" + 0.012*"get" + 0.011*"one" + 0.010*"great" + 0.009*"make"
+2021-02-18 20:02:44,868:INFO:topic #3 (0.200): 0.042*"order" + 0.036*"milk" + 0.025*"starbucks" + 0.017*"coffee" + 0.015*"cream" + 0.014*"one" + 0.013*"thank" + 0.013*"drink" + 0.013*"size" + 0.012*"latte"
+2021-02-18 20:02:44,868:INFO:topic #4 (0.200): 0.050*"tickets" + 0.033*"pm" + 0.030*"movie" + 0.023*"see" + 0.017*"showing" + 0.017*"two" + 0.015*"theater" + 0.014*"time" + 0.011*"thank" + 0.011*"tonight"
