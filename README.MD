@@ -11,3 +11,7 @@
         <p>This browser does not support PDFs. Please download the project report to view it: <a href="https://github.com/44Shu/UCSB-DS-CAPSTONE-INVOCA/blob/master/Invoca%20Capstone%20Final%20Project%20Report.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+## Students: Amy Co, Anton de la Fuente, Austin Quinn, Sai Kathika, Shuyun Tang
+
+## Mentors: Mike Lawrence, Prof. Ambuj Singh, Sikun Lin
