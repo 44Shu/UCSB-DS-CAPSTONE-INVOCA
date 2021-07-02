@@ -1,0 +1,15 @@
+name: chat_gui
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.7.3
+  - matplotlib
+  - nltk==3.4
+  - numpy==1.16.4
+  - pandas==0.24.2
+  - scikit-learn==0.20.0
+  - scipy==1.1.0
+  - pymongo==3.11.2
+  - dnspython==1.16.0
+  - gensim==3.8.0
