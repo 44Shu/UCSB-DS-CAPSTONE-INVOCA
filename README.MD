@@ -12,7 +12,7 @@
     </embed>
 </object>
 
-![hustlin_erd](https://github.com/44Shu/UCSB-DS-CAPSTONE-INVOCA/blob/master/Invoca%20Capstone%20Final%20Project%20Report.pdf)
+<!-- ![hustlin_erd](https://github.com/44Shu/UCSB-DS-CAPSTONE-INVOCA/blob/master/Invoca%20Capstone%20Final%20Project%20Report.pdf) -->
 
 ### Students: Amy Co, Anton de la Fuente, Austin Quinn, Sai Kathika, Shuyun Tang
 
