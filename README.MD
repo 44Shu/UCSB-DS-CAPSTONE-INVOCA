@@ -12,6 +12,6 @@
     </embed>
 </object>
 
-## Students: Amy Co, Anton de la Fuente, Austin Quinn, Sai Kathika, Shuyun Tang
+### Students: Amy Co, Anton de la Fuente, Austin Quinn, Sai Kathika, Shuyun Tang
 
-## Mentors: Mike Lawrence, Prof. Ambuj Singh, Sikun Lin
+### Mentors: Mike Lawrence, Prof. Ambuj Singh, Sikun Lin
